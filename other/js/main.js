@@ -1,0 +1,30 @@
+const timeline55 = gsap.timeline({defaults: {duration: 0.04, autoAlpha: 0}});
+
+timeline55
+  .from('#_1', {})
+  .from('#_2', {})
+  .to('#_1', {autoAlpha: 0})
+  .from('#_3', {})
+  .to('#_2', {autoAlpha: 0})
+  .from('#_4', {})
+  .to('#_3', {autoAlpha: 0})
+  .from('#_5', {})
+  .to('#_4', {autoAlpha: 0})
+  .from('#_6', {})
+  .to('#_5', {autoAlpha: 0})
+  .from('#_7', {duration: 0.06})
+  .to('#_6', {autoAlpha: 0})
+  .from('#_8', {duration: 0.06})
+  .to('#_7', {autoAlpha: 0})
+  .from('#_9', {duration: 0.06})
+  .to('#_8', {autoAlpha: 0})
+  .from('#_10', {duration: 0.06})
+  .to('#_9', {autoAlpha: 0})
+  .from('#_11', {duration: 0.18})
+  .to('#_10', {autoAlpha: 0})
+  .from('#_12', {duration: 0.13})
+  .to('#_11', {autoAlpha: 0})
+  .from('#_13', {duration: 0.15})
+  .to('#_12', {autoAlpha: 0})
+  .to('#_13', {autoAlpha: 0});
+
